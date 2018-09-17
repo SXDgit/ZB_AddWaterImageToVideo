@@ -5,12 +5,14 @@
 
 添加图片水印的代码：
 CALayer *imgLayer = [CALayer layer];
+
     imgLayer.contents = (id)img.CGImage;
+    
     imgLayer.frame = CGRectMake(0, 0, size.width, size.height);
     
 创建好了图片layer后，就需要创建videoLayer
 //把文字和图标都添加到layer
-    CALayer *overlayLayer = [CALayer layer];
+   CALayer *overlayLayer = [CALayer layer];
     [overlayLayer addSublayer:imgLayer];
     overlayLayer.frame = CGRectMake(0, 0, size.width, size.height);
     [overlayLayer setMasksToBounds:YES];
