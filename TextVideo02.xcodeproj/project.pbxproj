@@ -15,6 +15,19 @@
 		EA6FDC162146709C001155B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC152146709C001155B7 /* main.m */; };
 		EA6FDC202146709D001155B7 /* TextVideo02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC1F2146709D001155B7 /* TextVideo02Tests.m */; };
 		EA6FDC2B2146709D001155B7 /* TextVideo02UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC2A2146709D001155B7 /* TextVideo02UITests.m */; };
+		EA6FDC492146713E001155B7 /* ZRAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC3A2146713E001155B7 /* ZRAssetExportSession.m */; };
+		EA6FDC4B2146713E001155B7 /* ZRMediaCaptureController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC3E2146713E001155B7 /* ZRMediaCaptureController.m */; };
+		EA6FDC4C2146713E001155B7 /* ZRMediaCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC402146713E001155B7 /* ZRMediaCaptureView.m */; };
+		EA6FDC4E2146713E001155B7 /* ZRVideoCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC442146713E001155B7 /* ZRVideoCaptureViewController.m */; };
+		EA6FDC4F2146713E001155B7 /* ZRVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC462146713E001155B7 /* ZRVideoPlayerController.m */; };
+		EA6FDC502146713E001155B7 /* ZRWaterPrintComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC482146713E001155B7 /* ZRWaterPrintComposition.m */; };
+		EA6FDC5321467151001155B7 /* TestPreviewerVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC5221467151001155B7 /* TestPreviewerVideoViewController.m */; };
+		EA6FDC572147534E001155B7 /* HProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC562147534E001155B7 /* HProgressView.m */; };
+		EA6FDC592147634B001155B7 /* btn_video_flip_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6FDC582147634B001155B7 /* btn_video_flip_camera@2x.png */; };
+		EA6FDC5C2147A299001155B7 /* VideoEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC5B2147A299001155B7 /* VideoEditView.m */; };
+		EA6FDC5F2147A970001155B7 /* AddTextDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC5E2147A970001155B7 /* AddTextDetailView.m */; };
+		EA6FDC622147B2B1001155B7 /* FWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDC602147B2B1001155B7 /* FWTextView.m */; };
+		EA6FDCCB214A5DFE001155B7 /* ZRCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FDCC9214A5DFE001155B7 /* ZRCircleProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,31 @@
 		EA6FDC262146709D001155B7 /* TextVideo02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextVideo02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6FDC2A2146709D001155B7 /* TextVideo02UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextVideo02UITests.m; sourceTree = "<group>"; };
 		EA6FDC2C2146709D001155B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6FDC392146713E001155B7 /* ZRAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRAssetExportSession.h; sourceTree = "<group>"; };
+		EA6FDC3A2146713E001155B7 /* ZRAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRAssetExportSession.m; sourceTree = "<group>"; };
+		EA6FDC3D2146713E001155B7 /* ZRMediaCaptureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRMediaCaptureController.h; sourceTree = "<group>"; };
+		EA6FDC3E2146713E001155B7 /* ZRMediaCaptureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRMediaCaptureController.m; sourceTree = "<group>"; };
+		EA6FDC3F2146713E001155B7 /* ZRMediaCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRMediaCaptureView.h; sourceTree = "<group>"; };
+		EA6FDC402146713E001155B7 /* ZRMediaCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRMediaCaptureView.m; sourceTree = "<group>"; };
+		EA6FDC432146713E001155B7 /* ZRVideoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRVideoCaptureViewController.h; sourceTree = "<group>"; };
+		EA6FDC442146713E001155B7 /* ZRVideoCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRVideoCaptureViewController.m; sourceTree = "<group>"; };
+		EA6FDC452146713E001155B7 /* ZRVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRVideoPlayerController.h; sourceTree = "<group>"; };
+		EA6FDC462146713E001155B7 /* ZRVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRVideoPlayerController.m; sourceTree = "<group>"; };
+		EA6FDC472146713E001155B7 /* ZRWaterPrintComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRWaterPrintComposition.h; sourceTree = "<group>"; };
+		EA6FDC482146713E001155B7 /* ZRWaterPrintComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRWaterPrintComposition.m; sourceTree = "<group>"; };
+		EA6FDC5121467151001155B7 /* TestPreviewerVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPreviewerVideoViewController.h; sourceTree = "<group>"; };
+		EA6FDC5221467151001155B7 /* TestPreviewerVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPreviewerVideoViewController.m; sourceTree = "<group>"; };
+		EA6FDC552147534E001155B7 /* HProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HProgressView.h; sourceTree = "<group>"; };
+		EA6FDC562147534E001155B7 /* HProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HProgressView.m; sourceTree = "<group>"; };
+		EA6FDC582147634B001155B7 /* btn_video_flip_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_video_flip_camera@2x.png"; sourceTree = "<group>"; };
+		EA6FDC5A2147A299001155B7 /* VideoEditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEditView.h; sourceTree = "<group>"; };
+		EA6FDC5B2147A299001155B7 /* VideoEditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditView.m; sourceTree = "<group>"; };
+		EA6FDC5D2147A970001155B7 /* AddTextDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTextDetailView.h; sourceTree = "<group>"; };
+		EA6FDC5E2147A970001155B7 /* AddTextDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTextDetailView.m; sourceTree = "<group>"; };
+		EA6FDC602147B2B1001155B7 /* FWTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWTextView.m; sourceTree = "<group>"; };
+		EA6FDC612147B2B1001155B7 /* FWTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWTextView.h; sourceTree = "<group>"; };
+		EA6FDCC9214A5DFE001155B7 /* ZRCircleProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRCircleProgress.m; sourceTree = "<group>"; };
+		EA6FDCCA214A5DFE001155B7 /* ZRCircleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRCircleProgress.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +139,11 @@
 		EA6FDC052146709C001155B7 /* TextVideo02 */ = {
 			isa = PBXGroup;
 			children = (
+				EA6FDC582147634B001155B7 /* btn_video_flip_camera@2x.png */,
+				EA6FDC542147534E001155B7 /* Views */,
+				EA6FDC382146713E001155B7 /* src */,
+				EA6FDC5121467151001155B7 /* TestPreviewerVideoViewController.h */,
+				EA6FDC5221467151001155B7 /* TestPreviewerVideoViewController.m */,
 				EA6FDC062146709C001155B7 /* AppDelegate.h */,
 				EA6FDC072146709C001155B7 /* AppDelegate.m */,
 				EA6FDC092146709C001155B7 /* ViewController.h */,
@@ -130,6 +173,42 @@
 				EA6FDC2C2146709D001155B7 /* Info.plist */,
 			);
 			path = TextVideo02UITests;
+			sourceTree = "<group>";
+		};
+		EA6FDC382146713E001155B7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EA6FDCCA214A5DFE001155B7 /* ZRCircleProgress.h */,
+				EA6FDCC9214A5DFE001155B7 /* ZRCircleProgress.m */,
+				EA6FDC392146713E001155B7 /* ZRAssetExportSession.h */,
+				EA6FDC3A2146713E001155B7 /* ZRAssetExportSession.m */,
+				EA6FDC3D2146713E001155B7 /* ZRMediaCaptureController.h */,
+				EA6FDC3E2146713E001155B7 /* ZRMediaCaptureController.m */,
+				EA6FDC3F2146713E001155B7 /* ZRMediaCaptureView.h */,
+				EA6FDC402146713E001155B7 /* ZRMediaCaptureView.m */,
+				EA6FDC432146713E001155B7 /* ZRVideoCaptureViewController.h */,
+				EA6FDC442146713E001155B7 /* ZRVideoCaptureViewController.m */,
+				EA6FDC452146713E001155B7 /* ZRVideoPlayerController.h */,
+				EA6FDC462146713E001155B7 /* ZRVideoPlayerController.m */,
+				EA6FDC472146713E001155B7 /* ZRWaterPrintComposition.h */,
+				EA6FDC482146713E001155B7 /* ZRWaterPrintComposition.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EA6FDC542147534E001155B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA6FDC612147B2B1001155B7 /* FWTextView.h */,
+				EA6FDC602147B2B1001155B7 /* FWTextView.m */,
+				EA6FDC552147534E001155B7 /* HProgressView.h */,
+				EA6FDC562147534E001155B7 /* HProgressView.m */,
+				EA6FDC5A2147A299001155B7 /* VideoEditView.h */,
+				EA6FDC5B2147A299001155B7 /* VideoEditView.m */,
+				EA6FDC5D2147A970001155B7 /* AddTextDetailView.h */,
+				EA6FDC5E2147A970001155B7 /* AddTextDetailView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6FDC132146709C001155B7 /* LaunchScreen.storyboard in Resources */,
+				EA6FDC592147634B001155B7 /* btn_video_flip_camera@2x.png in Resources */,
 				EA6FDC102146709C001155B7 /* Assets.xcassets in Resources */,
 				EA6FDC0E2146709C001155B7 /* Main.storyboard in Resources */,
 			);
@@ -266,8 +346,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6FDC0B2146709C001155B7 /* ViewController.m in Sources */,
+				EA6FDC4E2146713E001155B7 /* ZRVideoCaptureViewController.m in Sources */,
+				EA6FDC4F2146713E001155B7 /* ZRVideoPlayerController.m in Sources */,
+				EA6FDC5C2147A299001155B7 /* VideoEditView.m in Sources */,
+				EA6FDC5F2147A970001155B7 /* AddTextDetailView.m in Sources */,
+				EA6FDC4C2146713E001155B7 /* ZRMediaCaptureView.m in Sources */,
+				EA6FDC572147534E001155B7 /* HProgressView.m in Sources */,
+				EA6FDC5321467151001155B7 /* TestPreviewerVideoViewController.m in Sources */,
 				EA6FDC162146709C001155B7 /* main.m in Sources */,
 				EA6FDC082146709C001155B7 /* AppDelegate.m in Sources */,
+				EA6FDC622147B2B1001155B7 /* FWTextView.m in Sources */,
+				EA6FDC492146713E001155B7 /* ZRAssetExportSession.m in Sources */,
+				EA6FDC502146713E001155B7 /* ZRWaterPrintComposition.m in Sources */,
+				EA6FDC4B2146713E001155B7 /* ZRMediaCaptureController.m in Sources */,
+				EA6FDCCB214A5DFE001155B7 /* ZRCircleProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +523,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
 				INFOPLIST_FILE = TextVideo02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fooww.TextVideo02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +538,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
 				INFOPLIST_FILE = TextVideo02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fooww.TextVideo02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
